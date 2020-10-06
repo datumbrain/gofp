@@ -5,7 +5,7 @@
 The resulting structures strictly resemble the OWL-Functional structures. For example, a SubClassOf axiom
 is parsed into an `axioms.SubClassOf` instance. Everything is read into memory at once.
 
-The project structure and the package and type names depict the OWL documentation from here: https://www.w3.org/2007/OWL/refcard
+The project structure and the package and type names depict the OWL documentation from here: https://www.w3.org/2007/OWL/refcard.
 
 The implementation idea comes from https://blog.gopheracademy.com/advent-2014/parsers-lexers/.
 
@@ -22,12 +22,14 @@ o, err := gofp.OntologyFromReader(f, "source was pizza-functional.owl")
 if err != nil {
 	log.Fatal(gofp.ErrorMsgWithPosition(err))
 }
-log.Println("That's what we parsed:", o.About())
+log.Printf("That's what we parsed: %v", o.About())
 ```
 
-To run that example, cd into the gofp/example/pizza/ directory and type
+To run that example, `cd` into the `gofp/example/pizza/` directory and run
 
-> go run main.go
+```bash
+go run main.go
+```
 
 #### Access Parsed Data
 
@@ -56,6 +58,7 @@ Note that the API may continue to change. Gofp, by intention, has a v0.\* versio
 
 - With commit 6e35dd from Oct 08 2019, the import path of "owlfunctional/declarations" was changed to "owlfunctional/decl", and "owlfunctional/ontologies" was shortened to "owlfunctional".
 - Since commit 018e1d from Apr 23 2019, the parsed elements are not found in Ontology.All\* - slices and maps anymore. See above, "How to access the parsed data" for details. That API change was made to (optionally) parse directly into custom types.
+- Since commit a33ec17 from Oct 06 2020, the "import" statement is supported and basic test cases having import declaration work fine.
 
 ## Remarkable OWL Parser Projects (Chosen Arbitrarily)
 
