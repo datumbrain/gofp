@@ -2,7 +2,7 @@
 
 `gofp` reads OWL2 files with functional syntax.
 
-The resulting structures strictly resemble the OWL-Functional structures. For example, a SubClassOf axiom
+The resulting structures strictly resemble the OWL-Functional structures. For example, a `SubClassOf` axiom
 is parsed into an `axioms.SubClassOf` instance. Everything is read into memory at once.
 
 The project structure and the package and type names depict the OWL documentation from here: https://www.w3.org/2007/OWL/refcard.
@@ -54,7 +54,7 @@ Further, all input must be UTF-8.
 
 ## Recent API Changes
 
-Note that the API may continue to change. Gofp, by intention, has a v0.\* version (see https://blog.golang.org/publishing-go-modules for golang versioning).
+Note that the API may continue to change. Gofp, by intention, has a v0.\* version (see https://blog.golang.org/publishing-go-modules for Go versioning).
 
 - With commit 6e35dd from Oct 08 2019, the import path of "owlfunctional/declarations" was changed to "owlfunctional/decl", and "owlfunctional/ontologies" was shortened to "owlfunctional".
 - Since commit 018e1d from Apr 23 2019, the parsed elements are not found in Ontology.All\* - slices and maps anymore. See above, "How to access the parsed data" for details. That API change was made to (optionally) parse directly into custom types.
