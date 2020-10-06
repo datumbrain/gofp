@@ -60,8 +60,8 @@ Note that the API may continue to change. Gofp, by intention, has a v0.\* versio
 ## Remarkable OWL Parser Projects (Chosen Arbitrarily)
 
 - [owlapi](https://github.com/owlcs/owlapi) (Interacting with OWL Ontologies, Java)
-- [jopa](https://github.com/kbss-cvut/jopa) (Java OWL Persistence API, Java) []
-- [jop](https://github.com/daveti/jop) (Jena OWL Parser, Java) []
+- [jopa](https://github.com/kbss-cvut/jopa) (Java OWL Persistence API, Java)
+- [jop](https://github.com/daveti/jop) (Jena OWL Parser, Java)
 - [pronto](https://github.com/althonos/pronto) (Python front-end to Ontologies, Python)
 
 ## Credits
