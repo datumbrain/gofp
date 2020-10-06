@@ -1,8 +1,8 @@
 package builtindatatypes
 
 import (
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/tech"
 )
 
 const (

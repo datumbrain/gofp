@@ -4,12 +4,12 @@ package storedefaults
 // which hold allparsed data.
 
 import (
-	"github.com/shful/gofp/owlfunctional/annotations"
-	"github.com/shful/gofp/owlfunctional/assertions"
-	"github.com/shful/gofp/owlfunctional/axioms"
-	"github.com/shful/gofp/owlfunctional/decl"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/store"
+	"github.com/datumbrain/gofp/owlfunctional/annotations"
+	"github.com/datumbrain/gofp/owlfunctional/assertions"
+	"github.com/datumbrain/gofp/owlfunctional/axioms"
+	"github.com/datumbrain/gofp/owlfunctional/decl"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/store"
 )
 
 // AllAxioms are the methods to get slices of all parsed Axioms.

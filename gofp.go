@@ -30,10 +30,10 @@ package gofp
 import (
 	"io"
 
-	"github.com/shful/gofp/owlfunctional"
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/parsehelper"
-	"github.com/shful/gofp/storedefaults"
+	"github.com/datumbrain/gofp/owlfunctional"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/parsehelper"
+	"github.com/datumbrain/gofp/storedefaults"
 )
 
 // OntologyFromReader parses an owl-functional file contents into an Ontology struct.

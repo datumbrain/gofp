@@ -3,14 +3,14 @@ package parsefuncs
 import (
 	"fmt"
 
-	"github.com/shful/gofp/owlfunctional/builtindatatypes"
-	"github.com/shful/gofp/owlfunctional/facets"
-	"github.com/shful/gofp/owlfunctional/literal"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/parsehelper"
-	"github.com/shful/gofp/store"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/builtindatatypes"
+	"github.com/datumbrain/gofp/owlfunctional/facets"
+	"github.com/datumbrain/gofp/owlfunctional/literal"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/parsehelper"
+	"github.com/datumbrain/gofp/store"
+	"github.com/datumbrain/gofp/tech"
 )
 
 func ParseDataRange(p *parser.Parser, decls store.Decls, prefixes tech.Prefixes) (expr meta.DataRange, err error) {

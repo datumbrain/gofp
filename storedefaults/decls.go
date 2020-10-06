@@ -3,9 +3,9 @@ package storedefaults
 import (
 	"fmt"
 
-	"github.com/shful/gofp/owlfunctional/decl"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/store"
+	"github.com/datumbrain/gofp/owlfunctional/decl"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/store"
 )
 
 type DeclStore struct {

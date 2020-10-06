@@ -1,6 +1,6 @@
 package facets
 
-import "github.com/shful/gofp/owlfunctional/literal"
+import "github.com/datumbrain/gofp/owlfunctional/literal"
 
 type Facet int
 

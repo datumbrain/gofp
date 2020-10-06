@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/tech"
 )
 
 func ParseAndResolveIRI(p *parser.Parser, prefixes tech.Prefixes) (ident *tech.IRI, err error) {

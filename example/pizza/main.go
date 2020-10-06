@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shful/gofp"
+	"github.com/datumbrain/gofp"
 )
 
 // main parses a pizza ontology.

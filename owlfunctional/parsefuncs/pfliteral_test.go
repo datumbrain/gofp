@@ -3,10 +3,10 @@ package parsefuncs
 import (
 	"testing"
 
-	"github.com/shful/gofp/mock"
-	"github.com/shful/gofp/owlfunctional/builtindatatypes"
-	"github.com/shful/gofp/owlfunctional/literal"
-	"github.com/shful/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/mock"
+	"github.com/datumbrain/gofp/owlfunctional/builtindatatypes"
+	"github.com/datumbrain/gofp/owlfunctional/literal"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
 )
 
 func TestParseInt(t *testing.T) {

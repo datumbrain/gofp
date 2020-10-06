@@ -3,11 +3,11 @@ package parsefuncs
 import (
 	"fmt"
 
-	"github.com/shful/gofp/owlfunctional/annotations"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/store"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/annotations"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/store"
+	"github.com/datumbrain/gofp/tech"
 )
 
 // ParseAnnotation parses a single Annotation(...) expression, including braces.

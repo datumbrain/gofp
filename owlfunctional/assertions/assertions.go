@@ -1,8 +1,8 @@
 package assertions
 
 import (
-	"github.com/shful/gofp/owlfunctional/individual"
-	"github.com/shful/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/individual"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
 )
 
 type NegativeObjectPropertyAssertion struct {

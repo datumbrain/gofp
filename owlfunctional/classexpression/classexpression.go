@@ -1,9 +1,9 @@
 package classexpression
 
 import (
-	"github.com/shful/gofp/owlfunctional/individual"
-	"github.com/shful/gofp/owlfunctional/literal"
-	"github.com/shful/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/individual"
+	"github.com/datumbrain/gofp/owlfunctional/literal"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
 )
 
 type OWLThing struct {

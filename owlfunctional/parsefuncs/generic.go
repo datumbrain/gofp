@@ -1,13 +1,13 @@
 package parsefuncs
 
 import (
-	"github.com/shful/gofp/owlfunctional/individual"
-	"github.com/shful/gofp/owlfunctional/literal"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/parsehelper"
-	"github.com/shful/gofp/store"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/individual"
+	"github.com/datumbrain/gofp/owlfunctional/literal"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/parsehelper"
+	"github.com/datumbrain/gofp/store"
+	"github.com/datumbrain/gofp/tech"
 )
 
 // ParseAxiomBegin parses the Token, the opening brace and the axiomAnnotations

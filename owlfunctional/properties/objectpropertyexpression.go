@@ -1,7 +1,7 @@
 package properties
 
 import (
-	"github.com/shful/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
 )
 
 type OWLTopObjectProperty struct {

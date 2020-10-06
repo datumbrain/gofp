@@ -3,16 +3,16 @@ package owlfunctional
 import (
 	"fmt"
 
-	"github.com/shful/gofp/owlfunctional/annotations"
-	"github.com/shful/gofp/owlfunctional/individual"
-	"github.com/shful/gofp/owlfunctional/literal"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/owlfunctional/parsefuncs"
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/parsehelper"
-	"github.com/shful/gofp/store"
-	"github.com/shful/gofp/storedefaults"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/annotations"
+	"github.com/datumbrain/gofp/owlfunctional/individual"
+	"github.com/datumbrain/gofp/owlfunctional/literal"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/parsefuncs"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/parsehelper"
+	"github.com/datumbrain/gofp/store"
+	"github.com/datumbrain/gofp/storedefaults"
+	"github.com/datumbrain/gofp/tech"
 )
 
 // Ontology is associated with exactly the content of a single OWL Ontology() element.

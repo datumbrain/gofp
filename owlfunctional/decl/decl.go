@@ -3,7 +3,7 @@ package decl
 import (
 	"fmt"
 
-	"github.com/shful/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
 )
 
 type Declaration struct {

@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/shful/gofp"
-	"github.com/shful/gofp/owlfunctional"
+	"github.com/datumbrain/gofp"
+	"github.com/datumbrain/gofp/owlfunctional"
 )
 
 // main parses an example string and prints what classes and properties were parsed.

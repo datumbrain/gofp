@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/shful/gofp/mock"
-	"github.com/shful/gofp/owlfunctional/annotations"
-	"github.com/shful/gofp/owlfunctional/assertions"
-	"github.com/shful/gofp/owlfunctional/axioms"
-	"github.com/shful/gofp/owlfunctional/builtindatatypes"
-	"github.com/shful/gofp/owlfunctional/decl"
-	"github.com/shful/gofp/owlfunctional/facets"
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/owlfunctional/properties"
-	"github.com/shful/gofp/storedefaults"
+	"github.com/datumbrain/gofp/mock"
+	"github.com/datumbrain/gofp/owlfunctional/annotations"
+	"github.com/datumbrain/gofp/owlfunctional/assertions"
+	"github.com/datumbrain/gofp/owlfunctional/axioms"
+	"github.com/datumbrain/gofp/owlfunctional/builtindatatypes"
+	"github.com/datumbrain/gofp/owlfunctional/decl"
+	"github.com/datumbrain/gofp/owlfunctional/facets"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/owlfunctional/properties"
+	"github.com/datumbrain/gofp/storedefaults"
 )
 
 func helperTestExplicitDecl(ontologyTestString string, explicitDecls bool) (*Ontology, *parser.Parser, *storedefaults.DefaultK) {

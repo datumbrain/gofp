@@ -4,10 +4,10 @@ package mock
 import (
 	"strings"
 
-	"github.com/shful/gofp/owlfunctional/parser"
-	"github.com/shful/gofp/store"
-	"github.com/shful/gofp/storedefaults"
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/store"
+	"github.com/datumbrain/gofp/storedefaults"
+	"github.com/datumbrain/gofp/tech"
 )
 
 type MockDeclarations struct {

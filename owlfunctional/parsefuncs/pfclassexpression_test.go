@@ -3,13 +3,13 @@ package parsefuncs
 import (
 	"testing"
 
-	"github.com/shful/gofp/tech"
+	"github.com/datumbrain/gofp/tech"
 
-	"github.com/shful/gofp/mock"
-	"github.com/shful/gofp/owlfunctional/classexpression"
-	"github.com/shful/gofp/owlfunctional/decl"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/mock"
+	"github.com/datumbrain/gofp/owlfunctional/classexpression"
+	"github.com/datumbrain/gofp/owlfunctional/decl"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
 )
 
 func TestParseThingAndNothing(t *testing.T) {

@@ -1,13 +1,13 @@
 package storedefaults
 
 import (
-	"github.com/shful/gofp/owlfunctional/annotations"
-	"github.com/shful/gofp/owlfunctional/assertions"
-	"github.com/shful/gofp/owlfunctional/axioms"
-	"github.com/shful/gofp/owlfunctional/individual"
-	"github.com/shful/gofp/owlfunctional/literal"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/store"
+	"github.com/datumbrain/gofp/owlfunctional/annotations"
+	"github.com/datumbrain/gofp/owlfunctional/assertions"
+	"github.com/datumbrain/gofp/owlfunctional/axioms"
+	"github.com/datumbrain/gofp/owlfunctional/individual"
+	"github.com/datumbrain/gofp/owlfunctional/literal"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/store"
 )
 
 // AxiomStore holds all axioms and declarations of a single ontology, as read by the parser. It's the "raw" data. i.e. has no inferred knowledge.

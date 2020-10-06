@@ -3,9 +3,9 @@ package parsefuncs
 import (
 	"testing"
 
-	"github.com/shful/gofp/mock"
-	"github.com/shful/gofp/owlfunctional/meta"
-	"github.com/shful/gofp/owlfunctional/parser"
+	"github.com/datumbrain/gofp/mock"
+	"github.com/datumbrain/gofp/owlfunctional/meta"
+	"github.com/datumbrain/gofp/owlfunctional/parser"
 )
 
 func TestParseAnnotations(t *testing.T) {
