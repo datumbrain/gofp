@@ -66,8 +66,8 @@ Note that the API may continue to change. Gofp, by intention, has a v0.\* versio
 
 ## Credits
 
-All credits go to the original author [shful](https://github.com/shful)
+All credits go to the original author [shful](https://github.com/shful). Thanks for the wonderful work you did. We, at Datum Brain, just extended this piece of work because we felt the original author was not responding to some of the issues.
 
 ## License
 
-Gofp is MIT licensed.
+`gofp` is MIT licensed.
