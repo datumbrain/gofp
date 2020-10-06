@@ -112,6 +112,7 @@ const (
 	SubObjectPropertyOf
 	SymmetricObjectProperty
 	TransitiveObjectProperty
+	Import
 )
 
 var keywords map[string]Token = map[string]Token{
@@ -177,6 +178,7 @@ var keywords map[string]Token = map[string]Token{
 	"SymmetricObjectProperty":         SymmetricObjectProperty,
 	"TransitiveObjectProperty":        TransitiveObjectProperty,
 	"true":                            OWLTrue,
+	"Import":                          Import,
 }
 
 func Tokenname(t Token) string {

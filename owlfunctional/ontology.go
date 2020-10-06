@@ -2,7 +2,6 @@ package owlfunctional
 
 import (
 	"fmt"
-
 	"github.com/datumbrain/gofp/owlfunctional/annotations"
 	"github.com/datumbrain/gofp/owlfunctional/individual"
 	"github.com/datumbrain/gofp/owlfunctional/literal"
@@ -165,6 +164,8 @@ func (s *Ontology) Parse(p *parser.Parser) (err error) {
 			s.parseSymmetricObjectProperty(p)
 		case parser.TransitiveObjectProperty:
 			err = s.parseTransitiveObjectProperty(p)
+		case parser.Import:
+			err = s.parseDeclaration(p)
 		default:
 			err = pos.Errorf(`unexpected ontology token %v ("%v")`, parser.Tokenname(tok), lit)
 		}

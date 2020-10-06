@@ -238,3 +238,53 @@ Ontology(<urn:absolute:test.de>
 		t.Fatal(pos)
 	}
 }
+
+func TestImports(t *testing.T) {
+	var err error
+	var o *owlfunctional.Ontology
+
+	o, err = OntologyFromReader(strings.NewReader(`
+	Prefix(:=<http://sub-ont#>)
+	Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+	Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+	Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+	Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+	Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+	
+	
+	Ontology(<http://sub-ont>
+	Import(<http://super-ont>)
+	
+	Declaration(Class(:b1))
+	Declaration(Class(:c1))
+	Declaration(Class(:d1))
+	Declaration(Class(:с2))
+	############################
+	#   Classes
+	############################
+	
+	# Class: :b1 (:b1)
+	
+	SubClassOf(:b1 <http://super-ont#a1>)
+	
+	# Class: :c1 (:c1)
+	
+	SubClassOf(:c1 :b1)
+	
+	# Class: :d1 (:d1)
+	
+	SubClassOf(:d1 :c1)
+	
+	# Class: :с2 (:с2)
+	
+	SubClassOf(:с2 :b1)
+	
+	
+	)
+`),
+		"ImportTestSource")
+	fmt.Println(err, o.About())
+	if err == nil {
+		t.Error()
+	}
+}
