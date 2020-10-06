@@ -107,7 +107,6 @@ func TestParseUnprefixedIRI(t *testing.T) {
 	}
 }
 
-
 func TestProlongIDENT(t *testing.T) {
 	var p *parser.Parser
 	var suffix string
@@ -135,7 +134,7 @@ func TestProlongIDENT(t *testing.T) {
 	if suffix != "-ß0-" {
 		t.Fatal(suffix)
 	}
-	
+
 	p = mock.NewTestParser(`Ä-ä-123`)
 	suffix = prolongIDENT(p)
 	if suffix != "Ä-ä-123" {
